@@ -25,10 +25,14 @@ Real-time face recognition on existing factory CCTV, writing attendance straight
 - Disk-backed queue handles **200–280 people at shift change** without dropping a face
 - `Python` `FastAPI` `InsightFace` `FAISS` `OpenCV` `React` `Oracle` `Docker`
 
-#### 📦 Reels Uploader — desktop automation product *(private)*
-A licensed desktop app that automates Reels uploading, sold to customers.
-- **Cloudflare Workers** license server with an owner dashboard
-- **Signed auto-updates** delivered through GitHub Releases
+#### 📦 Reels Uploader — multi-platform video automation, sold under license *(private)*
+A Windows tool that publishes Reels and Shorts on its own to Facebook, YouTube, Instagram, TikTok and X
+through Playwright browser automation, controlled from a local web panel.
+- **Hands-off pipeline:** folder watch, scheduled batches per Page, download from a link (yt-dlp) → cut into clips (ffmpeg) → upload
+- **Multi-account:** a separate browser profile per Facebook account, automatic Page creation, uploads limited to chosen countries
+- **Licensing I built:** Ed25519-signed per-PC keys, an online activation server on Cloudflare Workers + D1 with device limits, revocation and a multi-admin dashboard
+- **Code protection:** obfuscation + V8 bytecode, signed auto-updates checked with SHA-256
+- `Node.js` `Playwright` `ffmpeg` `yt-dlp` `Cloudflare Workers` `D1` `Ed25519`
 
 #### 🏗️ Sand Trading ERP — business management system *(private)*
 Bilingual (বাংলা / English) ERP for a sand-trading business: barcode challans, vouchers,
@@ -55,6 +59,8 @@ stock, dues, ledgers, P&L, Excel reports, automatic SMS and WhatsApp messages. O
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
 
 **Data, infra & integrations**<br/>
 ![PostgreSQL](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
