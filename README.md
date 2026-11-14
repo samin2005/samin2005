@@ -25,7 +25,7 @@ Real-time face recognition on existing factory CCTV, writing attendance straight
 - Disk-backed queue handles **200–280 people at shift change** without dropping a face
 - `Python` `FastAPI` `InsightFace` `FAISS` `OpenCV` `React` `Oracle` `Docker`
 
-#### 📦 Reels Uploader — multi-platform video automation, sold under license *(private)*
+#### 📦 [Reels Uploader](https://github.com/samin2005/reels-uploader-showcase) — multi-platform video automation, sold under license
 A Windows tool that publishes Reels and Shorts on its own to Facebook, YouTube, Instagram, TikTok and X
 through Playwright browser automation, controlled from a local web panel.
 - **Hands-off pipeline:** folder watch, scheduled batches per Page, download from a link (yt-dlp) → cut into clips (ffmpeg) → upload
